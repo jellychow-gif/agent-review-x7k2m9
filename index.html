@@ -14,216 +14,225 @@ h2{font-size:16px;margin:30px 0 12px;padding-left:10px;border-left:4px solid #0b
 table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5e6eb;border-radius:10px;overflow:hidden;font-size:13px}
 th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #f0f1f3;vertical-align:top}th{background:#fafbfc;font-weight:600;color:#646a73;font-size:12px}
 tr:hover td{background:#fafbff}td a{color:#0b6bcb;text-decoration:none}.ct{color:#646a73;white-space:nowrap}.ck{width:16px;height:16px}
-details{margin-top:8px}summary{cursor:pointer;color:#646a73;font-size:14px;padding:8px 0}</style></head><body><div class=wrap>
+details{margin-top:8px}summary{cursor:pointer;color:#646a73;font-size:14px;padding:8px 0}
+#copybtn{position:fixed;right:16px;bottom:16px;background:#0b6bcb;color:#fff;border:none;border-radius:24px;padding:12px 22px;font-size:14px;font-weight:600;box-shadow:0 3px 10px rgba(11,107,203,.35);cursor:pointer;z-index:99}#copybtn:active{transform:scale(.97)}</style></head><body><div class=wrap>
 <h1>AI Agent 候选人评审清单</h1>
 <div class=sub>按「Agent 实力 → 北京 → 有联系方式」排序，供 CEO / CTO 圈定值得接触的人</div>
 <div class=stats><div class=chip><b>50</b>候选</div><div class=chip><b>7</b>强档</div><div class=chip><b>7</b>中档</div><div class=chip><b>36</b>早期</div><div class=chip><b>5</b>确认北京</div><div class=chip><b>13</b>有联系方式</div></div>
 <div class=note><b>怎么用：</b>勾选你认为值得接触的人。<b>只判断人值不值得追，别管能否联系上</b>——没留方式的（含全场最强的 hangwin）我们去找。强度：<b style="color:#e8590c">强</b>=有≥200★的agent框架；<b style="color:#d9a300">中</b>=agent项目10–400★；<b style="color:#868e96">弱</b>=在做agent还没起量（hungry builder）。</div>
 <h2>第一梯队 · Agent/Harness 强（7人 · 重点看）</h2>
-<div class=cards><div class="card"><div class="crow"><input type=checkbox class=ck>
+<div class=cards><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_ZHangZHengEric" data-line="[强] ZHangZHengEric（北京）Sage(1194★) 💬 微信 zhangzheng-thu">
       <a class="gh" href="https://github.com/ZHangZHengEric" target=_blank>ZHangZHengEric</a>
       <span class="badge" style="background:#e8590c">强</span><span class="city">北京</span></div>
       <div class="repo"><a href="https://github.com/ZHangZHengEric/Sage" target=_blank>Sage</a> <span class=star>★1194</span></div>
-      <div class="desc">Multi-Agent System Framework For Complex Tasks</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">Multi-Agent System Framework For Complex Tasks</div><div class="contact ok">💬 微信 zhangzheng-thu</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_sopaco" data-line="[强] sopaco（北京）deepwiki-rs(1023★) ✉ dokhell@live.cn">
       <a class="gh" href="https://github.com/sopaco" target=_blank>sopaco</a>
       <span class="badge" style="background:#e8590c">强</span><span class="city">北京</span></div>
       <div class="repo"><a href="https://github.com/sopaco/deepwiki-rs" target=_blank>deepwiki-rs</a> <span class=star>★1023</span></div>
-      <div class="desc">Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—p</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—p</div><div class="contact ok">✉ dokhell@live.cn</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_hangwin" data-line="[强] hangwin（疑似中国）mcp-chrome(11833★) 需另找">
       <a class="gh" href="https://github.com/hangwin" target=_blank>hangwin</a>
       <span class="badge" style="background:#e8590c">强</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/hangwin/mcp-chrome" target=_blank>mcp-chrome</a> <span class=star>★11833</span></div>
-      <div class="desc">Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exp</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exp</div><div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_shizhl" data-line="[强] shizhl（疑似中国）CoAgents(219★) 需另找">
       <a class="gh" href="https://github.com/shizhl" target=_blank>shizhl</a>
       <span class="badge" style="background:#e8590c">强</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/shizhl/CoAgents" target=_blank>CoAgents</a> <span class=star>★219</span></div>
-      <div class="desc">Official code for paper &quot;Learning to Use Tools via Cooperative and Interactive Agents&quot;</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">Official code for paper &quot;Learning to Use Tools via Cooperative and Interactive Agents&quot;</div><div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_xqz614" data-line="[强] xqz614（疑似中国）Awesome-Agentic-Clinical-Dialogue(407★) 需另找">
       <a class="gh" href="https://github.com/xqz614" target=_blank>xqz614</a>
       <span class="badge" style="background:#e8590c">强</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/xqz614/Awesome-Agentic-Clinical-Dialogue" target=_blank>Awesome-Agentic-Clinical-Dialogue</a> <span class=star>★407</span></div>
-      <div class="desc">Resource collection of medical agent for clinical dialogue  and health</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">Resource collection of medical agent for clinical dialogue  and health</div><div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_lupantech" data-line="[强] lupantech（待核实）AgentFlow(1898★) ✉ lupantech@gmail.com">
       <a class="gh" href="https://github.com/lupantech" target=_blank>lupantech</a>
       <span class="badge" style="background:#e8590c">强</span><span class="city">待核实</span></div>
       <div class="repo"><a href="https://github.com/lupantech/AgentFlow" target=_blank>AgentFlow</a> <span class=star>★1898</span></div>
-      <div class="desc">AgentFlow: In-the-Flow Agentic System Optimization</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">AgentFlow: In-the-Flow Agentic System Optimization</div><div class="contact ok">✉ lupantech@gmail.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_mangopy" data-line="[强] mangopy（待核实）Deep-Research-Survey(318★) 需另找">
       <a class="gh" href="https://github.com/mangopy" target=_blank>mangopy</a>
       <span class="badge" style="background:#e8590c">强</span><span class="city">待核实</span></div>
       <div class="repo"><a href="https://github.com/mangopy/Deep-Research-Survey" target=_blank>Deep-Research-Survey</a> <span class=star>★318</span></div>
-      <div class="desc">A Systematic Survey of Deep Research</div></div></div>
+      <div class="desc">A Systematic Survey of Deep Research</div><div class="contact no">需另找</div></div></div>
 <h2>第二梯队 · AI Agent 方向（7人）</h2>
-<div class=cards><div class="card"><div class="crow"><input type=checkbox class=ck>
+<div class=cards><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_jianzhichun" data-line="[中] jianzhichun（北京）ComfyUI-Easyai(24★) ✉ zzchun12826@gmail.com">
       <a class="gh" href="https://github.com/jianzhichun" target=_blank>jianzhichun</a>
       <span class="badge" style="background:#d9a300">中</span><span class="city">北京</span></div>
       <div class="repo"><a href="https://github.com/jianzhichun/ComfyUI-Easyai" target=_blank>ComfyUI-Easyai</a> <span class=star>★24</span></div>
-      <div class="desc">ComfyUI-Easyai is a powerful extension for ComfyUI that enables users to share workflows a</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">ComfyUI-Easyai is a powerful extension for ComfyUI that enables users to share workflows a</div><div class="contact ok">✉ zzchun12826@gmail.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_vivy-yi" data-line="[中] vivy-yi（疑似中国）xiaohongshu-skills(213★) ✉ 1149138667@qq.com">
       <a class="gh" href="https://github.com/vivy-yi" target=_blank>vivy-yi</a>
       <span class="badge" style="background:#d9a300">中</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/vivy-yi/xiaohongshu-skills" target=_blank>xiaohongshu-skills</a> <span class=star>★213</span></div>
-      <div class="desc">139个完整的小红书运营技能 - Claude Code 技能插件系统。覆盖内容创作、账号运营、互动运营、数据分析、电商转化、平台规则、工具生态、营销推广、增长策略9大分类。</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">139个完整的小红书运营技能 - Claude Code 技能插件系统。覆盖内容创作、账号运营、互动运营、数据分析、电商转化、平台规则、工具生态、营销推广、增长策略9大分类。</div><div class="contact ok">✉ 1149138667@qq.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_HLingSoft" data-line="[中] HLingSoft（疑似中国）torra-community(136★) ✉ kk@hlingsoft.com">
       <a class="gh" href="https://github.com/HLingSoft" target=_blank>HLingSoft</a>
       <span class="badge" style="background:#d9a300">中</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/HLingSoft/torra-community" target=_blank>torra-community</a> <span class=star>★136</span></div>
-      <div class="desc">Open-source visual platform for AI agent and workflow development. Inspired by Coze &amp; Lang</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">Open-source visual platform for AI agent and workflow development. Inspired by Coze &amp; Lang</div><div class="contact ok">✉ kk@hlingsoft.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_chyinan" data-line="[中] chyinan（疑似中国）Kokoro-Engine(85★) 需另找">
       <a class="gh" href="https://github.com/chyinan" target=_blank>chyinan</a>
       <span class="badge" style="background:#d9a300">中</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/chyinan/Kokoro-Engine" target=_blank>Kokoro-Engine</a> <span class=star>★85</span></div>
-      <div class="desc">Cross-platform virtual character immersive interaction engine</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">Cross-platform virtual character immersive interaction engine</div><div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_DSGWJQ" data-line="[中] DSGWJQ（疑似中国）Feagent(140★) 需另找">
       <a class="gh" href="https://github.com/DSGWJQ" target=_blank>DSGWJQ</a>
       <span class="badge" style="background:#d9a300">中</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/DSGWJQ/Feagent" target=_blank>Feagent</a> <span class=star>★140</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_a1594834522-coder" data-line="[中] a1594834522-coder（疑似中国）Langgraph-checking(88★) 需另找">
       <a class="gh" href="https://github.com/a1594834522-coder" target=_blank>a1594834522-coder</a>
       <span class="badge" style="background:#d9a300">中</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/a1594834522-coder/Langgraph-checking" target=_blank>Langgraph-checking</a> <span class=star>★88</span></div>
-      <div class="desc">基于Langgraph的职称材料审核系统</div></div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="desc">基于Langgraph的职称材料审核系统</div><div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_okwinds" data-line="[中] okwinds（疑似中国）capability-runtime(11★) 需另找">
       <a class="gh" href="https://github.com/okwinds" target=_blank>okwinds</a>
       <span class="badge" style="background:#d9a300">中</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/okwinds/capability-runtime" target=_blank>capability-runtime</a> <span class=star>★11</span></div>
-      <div class="desc">Capability-oriented (skills, agent, workflow) runtime base with adapters, evidence chain, </div></div></div>
+      <div class="desc">Capability-oriented (skills, agent, workflow) runtime base with adapters, evidence chain, </div><div class="contact no">需另找</div></div></div>
 <details open><summary>▸ 第三梯队 · 早期 builder（36人 · 海选池，点击收起）</summary>
-<div class=cards><div class="card"><div class="crow"><input type=checkbox class=ck>
+<div class=cards><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_liuruing" data-line="[弱] liuruing（北京）boss-ai-assistant(3★) 需另找">
       <a class="gh" href="https://github.com/liuruing" target=_blank>liuruing</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">北京</span></div>
       <div class="repo"><a href="https://github.com/liuruing/boss-ai-assistant" target=_blank>boss-ai-assistant</a> <span class=star>★3</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_Hiohk" data-line="[弱] Hiohk（北京）mcp-server-web(0★) 需另找">
       <a class="gh" href="https://github.com/Hiohk" target=_blank>Hiohk</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">北京</span></div>
       <div class="repo"><a href="https://github.com/Hiohk/mcp-server-web" target=_blank>mcp-server-web</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_wingerboy" data-line="[弱] wingerboy（疑似中国）ArticleGpt(0★) ✉ waini455801125@qq.com">
       <a class="gh" href="https://github.com/wingerboy" target=_blank>wingerboy</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/wingerboy/ArticleGpt" target=_blank>ArticleGpt</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact ok">✉ waini455801125@qq.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_zhouliang3" data-line="[弱] zhouliang3（疑似中国）ctg_uconf_agent(0★) ✉ 452153627@qq.com">
       <a class="gh" href="https://github.com/zhouliang3" target=_blank>zhouliang3</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/zhouliang3/ctg_uconf_agent" target=_blank>ctg_uconf_agent</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact ok">✉ 452153627@qq.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_DeadByDawn101" data-line="[弱] DeadByDawn101（疑似中国）RavenX-Sec(2★) X: @DeadByDawn1O1">
       <a class="gh" href="https://github.com/DeadByDawn101" target=_blank>DeadByDawn101</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/DeadByDawn101/RavenX-Sec" target=_blank>RavenX-Sec</a> <span class=star>★2</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact ok">X: @DeadByDawn1O1</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_linkxzhou" data-line="[弱] linkxzhou（疑似中国）mylib(80★) ✉ zhoulv2000@163.com">
       <a class="gh" href="https://github.com/linkxzhou" target=_blank>linkxzhou</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/linkxzhou/mylib" target=_blank>mylib</a> <span class=star>★80</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact ok">✉ zhoulv2000@163.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_ChenyCHENYU" data-line="[弱] ChenyCHENYU（疑似中国）jh-project-agent-ppt(1★) ✉ ycyplus@gmail.com">
       <a class="gh" href="https://github.com/ChenyCHENYU" target=_blank>ChenyCHENYU</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/ChenyCHENYU/jh-project-agent-ppt" target=_blank>jh-project-agent-ppt</a> <span class=star>★1</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact ok">✉ ycyplus@gmail.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_EthanWu" data-line="[弱] EthanWu（疑似中国）hand-clean(1★) ✉ wlj0427@gmail.com">
       <a class="gh" href="https://github.com/EthanWu" target=_blank>EthanWu</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/EthanWu/hand-clean" target=_blank>hand-clean</a> <span class=star>★1</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact ok">✉ wlj0427@gmail.com</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_camillanapoles" data-line="[弱] camillanapoles（疑似中国）atomic-dag-soc(0★) ✉ cnmfs@cesar.school">
       <a class="gh" href="https://github.com/camillanapoles" target=_blank>camillanapoles</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/camillanapoles/atomic-dag-soc" target=_blank>atomic-dag-soc</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact ok">✉ cnmfs@cesar.school</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_hellostronger" data-line="[弱] hellostronger（疑似中国）excel_agent(2★) 需另找">
       <a class="gh" href="https://github.com/hellostronger" target=_blank>hellostronger</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/hellostronger/excel_agent" target=_blank>excel_agent</a> <span class=star>★2</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_Chiakai-Chang" data-line="[弱] Chiakai-Chang（疑似中国）DeepSeek-OCR-vllm-service(6★) 需另找">
       <a class="gh" href="https://github.com/Chiakai-Chang" target=_blank>Chiakai-Chang</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/Chiakai-Chang/DeepSeek-OCR-vllm-service" target=_blank>DeepSeek-OCR-vllm-service</a> <span class=star>★6</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_murumury" data-line="[弱] murumury（疑似中国）an-ai-sidebar-Chrome-plugin(2★) 需另找">
       <a class="gh" href="https://github.com/murumury" target=_blank>murumury</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/murumury/an-ai-sidebar-Chrome-plugin" target=_blank>an-ai-sidebar-Chrome-plugin</a> <span class=star>★2</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_zhixiangxue" data-line="[弱] zhixiangxue（疑似中国）chak-ai(201★) 需另找">
       <a class="gh" href="https://github.com/zhixiangxue" target=_blank>zhixiangxue</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/zhixiangxue/chak-ai" target=_blank>chak-ai</a> <span class=star>★201</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_Antony-Jia" data-line="[弱] Antony-Jia（疑似中国）OpenAnyWork(8★) 需另找">
       <a class="gh" href="https://github.com/Antony-Jia" target=_blank>Antony-Jia</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/Antony-Jia/OpenAnyWork" target=_blank>OpenAnyWork</a> <span class=star>★8</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_xyh4ck" data-line="[弱] xyh4ck（疑似中国）SmartSafe(41★) 需另找">
       <a class="gh" href="https://github.com/xyh4ck" target=_blank>xyh4ck</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/xyh4ck/SmartSafe" target=_blank>SmartSafe</a> <span class=star>★41</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_Xio-Shark" data-line="[弱] Xio-Shark（疑似中国）localops-copilot(54★) 需另找">
       <a class="gh" href="https://github.com/Xio-Shark" target=_blank>Xio-Shark</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/Xio-Shark/localops-copilot" target=_blank>localops-copilot</a> <span class=star>★54</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_ms7679-1" data-line="[弱] ms7679-1（疑似中国）scholar-mcp(3★) 需另找">
       <a class="gh" href="https://github.com/ms7679-1" target=_blank>ms7679-1</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/ms7679-1/scholar-mcp" target=_blank>scholar-mcp</a> <span class=star>★3</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_baller" data-line="[弱] baller（疑似中国）SuperTravelAgent(2★) 需另找">
       <a class="gh" href="https://github.com/baller" target=_blank>baller</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/baller/SuperTravelAgent" target=_blank>SuperTravelAgent</a> <span class=star>★2</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_ChainInsighter" data-line="[弱] ChainInsighter（疑似中国）Web3-Casino-Crash-Game(21★) 需另找">
       <a class="gh" href="https://github.com/ChainInsighter" target=_blank>ChainInsighter</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/ChainInsighter/Web3-Casino-Crash-Game" target=_blank>Web3-Casino-Crash-Game</a> <span class=star>★21</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_TechnologyStar" data-line="[弱] TechnologyStar（疑似中国）Openai-Claude-Deepseek-API-provider(351★) 需另找">
       <a class="gh" href="https://github.com/TechnologyStar" target=_blank>TechnologyStar</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/TechnologyStar/Openai-Claude-Deepseek-API-provider" target=_blank>Openai-Claude-Deepseek-API-provider</a> <span class=star>★351</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_zihan987" data-line="[弱] zihan987（疑似中国）Zetta-Agent(1★) 需另找">
       <a class="gh" href="https://github.com/zihan987" target=_blank>zihan987</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/zihan987/Zetta-Agent" target=_blank>Zetta-Agent</a> <span class=star>★1</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_wandou-cc" data-line="[弱] wandou-cc（疑似中国）agent-browser-performance-skill(1★) 需另找">
       <a class="gh" href="https://github.com/wandou-cc" target=_blank>wandou-cc</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/wandou-cc/agent-browser-performance-skill" target=_blank>agent-browser-performance-skill</a> <span class=star>★1</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_wuhoufeng" data-line="[弱] wuhoufeng（疑似中国）agent-quick-reference(1★) 需另找">
       <a class="gh" href="https://github.com/wuhoufeng" target=_blank>wuhoufeng</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/wuhoufeng/agent-quick-reference" target=_blank>agent-quick-reference</a> <span class=star>★1</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_FeijiangHan" data-line="[弱] FeijiangHan（疑似中国）Top-Conference-Best-Papers(85★) 需另找">
       <a class="gh" href="https://github.com/FeijiangHan" target=_blank>FeijiangHan</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/FeijiangHan/Top-Conference-Best-Papers" target=_blank>Top-Conference-Best-Papers</a> <span class=star>★85</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_maxzhang666" data-line="[弱] maxzhang666（疑似中国）AI-Code-Review-Agent(0★) 需另找">
       <a class="gh" href="https://github.com/maxzhang666" target=_blank>maxzhang666</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/maxzhang666/AI-Code-Review-Agent" target=_blank>AI-Code-Review-Agent</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_kakawaa" data-line="[弱] kakawaa（疑似中国）AiTestProject(3★) 需另找">
       <a class="gh" href="https://github.com/kakawaa" target=_blank>kakawaa</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/kakawaa/AiTestProject" target=_blank>AiTestProject</a> <span class=star>★3</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_Aliang-CN" data-line="[弱] Aliang-CN（疑似中国）adgen_agent(0★) 需另找">
       <a class="gh" href="https://github.com/Aliang-CN" target=_blank>Aliang-CN</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/Aliang-CN/adgen_agent" target=_blank>adgen_agent</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_Romanrose" data-line="[弱] Romanrose（疑似中国）Maltbook(0★) 需另找">
       <a class="gh" href="https://github.com/Romanrose" target=_blank>Romanrose</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/Romanrose/Maltbook" target=_blank>Maltbook</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_killaragorn" data-line="[弱] killaragorn（疑似中国）aicli-switch(2★) 需另找">
       <a class="gh" href="https://github.com/killaragorn" target=_blank>killaragorn</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/killaragorn/aicli-switch" target=_blank>aicli-switch</a> <span class=star>★2</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_kevinjxx" data-line="[弱] kevinjxx（疑似中国）agent-skills(0★) 需另找">
       <a class="gh" href="https://github.com/kevinjxx" target=_blank>kevinjxx</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/kevinjxx/agent-skills" target=_blank>agent-skills</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_duckdash2" data-line="[弱] duckdash2（疑似中国）cc-telegram-bridge(0★) 需另找">
       <a class="gh" href="https://github.com/duckdash2" target=_blank>duckdash2</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/duckdash2/cc-telegram-bridge" target=_blank>cc-telegram-bridge</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_zjnbwxq" data-line="[弱] zjnbwxq（疑似中国）agentguard-ci(0★) 需另找">
       <a class="gh" href="https://github.com/zjnbwxq" target=_blank>zjnbwxq</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/zjnbwxq/agentguard-ci" target=_blank>agentguard-ci</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_lucky-Testrunner" data-line="[弱] lucky-Testrunner（疑似中国）DeepAgent-Desk(0★) 需另找">
       <a class="gh" href="https://github.com/lucky-Testrunner" target=_blank>lucky-Testrunner</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/lucky-Testrunner/DeepAgent-Desk" target=_blank>DeepAgent-Desk</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_sunny086" data-line="[弱] sunny086（疑似中国）agent_study(0★) 需另找">
       <a class="gh" href="https://github.com/sunny086" target=_blank>sunny086</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/sunny086/agent_study" target=_blank>agent_study</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_xiangtao94" data-line="[弱] xiangtao94（疑似中国）sage-chatbot(0★) 需另找">
       <a class="gh" href="https://github.com/xiangtao94" target=_blank>xiangtao94</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/xiangtao94/sage-chatbot" target=_blank>sage-chatbot</a> <span class=star>★0</span></div>
-      </div><div class="card"><div class="crow"><input type=checkbox class=ck>
+      <div class="contact no">需另找</div></div><div class="card"><div class="crow"><input type=checkbox class=ck id="pick_YujieHan-Rachel" data-line="[弱] YujieHan-Rachel（疑似中国）multi-agent-chatbot(0★) 需另找">
       <a class="gh" href="https://github.com/YujieHan-Rachel" target=_blank>YujieHan-Rachel</a>
       <span class="badge" style="background:#868e96">弱</span><span class="city">疑似中国</span></div>
       <div class="repo"><a href="https://github.com/YujieHan-Rachel/multi-agent-chatbot" target=_blank>multi-agent-chatbot</a> <span class=star>★0</span></div>
-      </div></div></details>
+      <div class="contact no">需另找</div></div></div></details>
 <div class=sub style="margin-top:30px">数据来源：GitHub + HuggingFace + ModelScope · Agent/Harness 加权 · 已剔除非 agent 与海外噪音</div>
-</div></body></html>
+</div><button id=copybtn>复制已选 (0)</button><script>
+var boxes=[].slice.call(document.querySelectorAll('.ck')),btn=document.getElementById('copybtn');
+function save(){try{localStorage.setItem('picks',JSON.stringify(boxes.filter(function(b){return b.checked}).map(function(b){return b.id})))}catch(e){}}
+function load(){try{var s=JSON.parse(localStorage.getItem('picks')||'[]');boxes.forEach(function(b){b.checked=s.indexOf(b.id)>=0})}catch(e){}}
+function upd(){btn.textContent='复制已选 ('+boxes.filter(function(b){return b.checked}).length+')'}
+boxes.forEach(function(b){b.addEventListener('change',function(){save();upd()})});
+btn.onclick=function(){var L=boxes.filter(function(b){return b.checked}).map(function(b){return b.dataset.line});if(!L.length){alert('还没勾选谁');return}var t='【值得接触】共'+L.length+'人:\n'+L.join('\n');if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){alert('已复制 '+L.length+' 人，粘贴发回即可')},function(){prompt('复制下面文字发回：',t)})}else{prompt('复制下面文字发回：',t)}};
+load();upd();
+</script></body></html>
